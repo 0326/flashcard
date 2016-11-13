@@ -1,6 +1,15 @@
 
 <style lang="less" scoped>
+  #app {
+    padding-top: 76px;
+  }
   .md-toolbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-width: 990px;
+    z-index: 1001;
+
     .md-icon-button{
       color: #FFF;
     }
